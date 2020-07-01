@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+}
+.upperline{
+	height: 10vh;
+	background-color: #efefef;
+}
+.logo{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-left: 200px;
+	padding-top: 10px;
+}
+.logo img{
+	width: 70px;
+	height: 70px;
+}
+.title{
+	float: left;
+	margin-left: 20px;
+	padding-top: 20px;
+	font-size: 24px;
+}
+.mainheader{
+	height: 90vh;
+	background-image: url("https://nakedgirlmedia.com/wp-content/uploads/2015/10/Hands-on-Keyboard.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.fon2{
+	height: 100%;
+	background-color: #232325CC;
+}
+.zabor{
+	width: 600px;
+	height: 100%;
+	margin: auto;
+}
+.maintitle{
+	text-align: center;
+	font-size: 60px;
+	color: #efefef;
+	padding-top: 180px;
+	border-bottom: 3px solid #07a2f5;
+}
+.podtext{
+	text-align: center;
+	color: #efefef;
+	padding-top: 30px;
+	font-size: 20px;
+}
+.button{
+	margin: auto;
+	width: 200px;
+	height: 50px;
+	margin-top: 50px;
+}
+.button button{
+	width: 200px;
+	height: 50px;
+	border: 1px solid #07a2f5;
+	color: #efefef;
+	font-size: 18px;
+	background-color: #00000000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.button:hover button{
+	border: 1px solid #0691e4;
+	color: #fefefe;
+}
+.arrow{
+	width: 30px;
+	height: 30px;
+	margin: auto;
+	margin-top: 150px;
+	cursor: pointer;
+}
+.arrow img{
+	width: 30px;
+	height: 30px;
+}
+.justtext{
+	height: 300px;
+	background-color: #efefef;
+	padding-left: 400px;
+	padding-right: 400px;
+}
+.jstitle{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 24px;
+}
+.jspodtext{
+	text-align: center;
+	margin-top: 30px;
+}
+.items{
+	height: 300px;
+}
+.itemszabor{
+	width: 1200px;
+	padding-top: 50px;
+	margin: auto;
+}
+.item{
+	width: 360px;
+	text-align: center;
+	float: left;
+	padding: 0 20px;
+}
+.itemimg img{
+	width: 70px;
+	height: 70px;
+}
+.itemtitle{
+	margin-top: 20px;
+}
+.itempodtitle{
+	margin-top: 20px;
+}
+.photogallery{
+	height: 100vh;
+	background-color: #efefef;
+}
+.gallerytitle{
+	text-align: center;
+	padding-top: 80px;
+	font-size: 26px;
+}
+.gallerypodtitle{
+	text-align: center;
+	font-size: 14px;
+	color: #a6a6a6;
+	margin-top: 20px;
+}
+.gallery{
+	width: 950px;
+	height: 425px;
+	margin: auto;
+	margin-top: 80px;
+}
+.photo{
+	width: 300px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+.p1{
+	background-image: url(https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/26155623/Siberian-Husky-standing-outdoors-in-the-winter.jpg);
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.p2{
+	background-image: url(https://previews.123rf.com/images/ia64/ia641803/ia64180300031/98560930-cute-breed-siberian-husky-dog-animal-walking-winter-snow-outdoor.jpg);
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+.p3{
+	background-image: url(https://d17fnq9dkz9hgj.cloudfront.net/breed-uploads/2018/08/siberian-husky-card-small.jpg?bust=1535567860);
+	margin-bottom: 25px;
+}
+.p4{
+	background-image: url(https://epi.azureedge.net/website-images/images/default-album/siberian-husky.jpg?sfvrsn=19bfd37b_2);
+	margin-right: 25px;
+}
+.p5{
+	background-image: url(https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/4f/62.jpg);
+	margin-right: 25px;
+}
+.p6{
+	background-image: url(https://i.pinimg.com/originals/ea/f7/0a/eaf70a2c440619b69e9f7ffdedc4f869.jpg);
+}
+.fon{
+	background-color: #00000000;
+	transition: background-color 0.2s ease-in;
+	height: 200px;
+}
+.fon:hover{
+	background-color: #03a5fc99;
+}
+.photobuttons{
+	width: 69px;
+	height: 32px;
+	margin: auto;
+	padding-top: 84px;
+}
+.pb1, .pb2{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #efefef;
+	float: left;
+	opacity: 0;
+	cursor: pointer;
+	transition: opacity 0.2s ease-in;
+}
+.pb2{
+	margin-left: 5px;
+}
+.pb1 img, .pb2 img{
+	width: 24px;
+	height: 24px;
+	padding-left: 3px;
+	padding-top: 3px;
+	filter: invert(1);
+}
+.photo:hover .pb1{
+	opacity: 1;
+}
+.photo:hover .pb2{
+	opacity: 1;
+}
+.formblock{
+	height: 100vh;
+	background-image: url(https://constructionreviewonline.com/wp-content/uploads/2019/03/istock_48003904_road-1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.zatemnenie{
+	height: 100vh;
+	background-color: #232328f5;
+}
+.formtitle{
+	color: #efefef;
+	font-size: 38px;
+	text-align: center;
+	padding-top: 80px;
+}
+.formtitle h2{
+	font-weight: normal;
+}
+.formpodtitle{
+	color: #a5a5a5;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 30px;
+}
+.formzabor{
+	width: 600px;
+	margin: auto;
+	margin-top: 60px;
+}
+.inp{
+	width: 588px;
+	border: 1px solid #a5a5a5;
+	border-radius: 3px;
+	background-color: #00000000;
+	height: 60px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: #efefef;
+}
+.inp:hover{
+	background-color: #00000033;
+}
+.i3{
+	height: 180px;
+	padding-top: 20px;
+	resize: none;
+}
+.checkbox{
+	float: left;
+}
+.checktext{
+	float: left;
+	color: #efefef;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+.submit{
+	float: right;
+}
+.i4{
+	background-color: #a5a5a5;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+}
+.i5{
+	width: 160px;
+	height: 40px;
+	border: 1px solid #0691e4;
+	color: #efefef;
+	font-size: 16px;
+	background-color: #00000000;
+}
+.footer{
+	height: 100px;
+	background-color: #efefef;
+}
+.footertext{
+	float: left;
+	padding-top: 40px;
+	padding-left: 200px;
+	font-size: 18px;
+	color: #a5a5a5;
+}
+.footersocials{
+	float: right;
+	padding-right: 200px;
+	padding-top: 35px;
+}
+.social{
+	float: left;
+}
+.social + .social{
+	margin-left: 10px;
+}
+.social img{
+	width: 30px;
+	height: 30px;
+}
